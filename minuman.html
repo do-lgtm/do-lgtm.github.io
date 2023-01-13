@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Judul Website -->
+    <title>KORSES</title>
+
+
+</head>
+<body>
+
+    <!-- Bagian Header -->
+    <header>
+        <!-- Membuat Navbar ukuran large, background gelap, dan selalu tampil diatas. -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!-- Judul Navbar -->
+                <a class="navbar-brand" href="index.html">KOR<span>SES</span></a>
+                <!-- Koding untuk membuat hamburger. -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Isi Navbar -->
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- Navbar Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Sembako
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="beras.html">Beras</a>
+                              <a class="dropdown-item" href="minyak.html">Minyak</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rumahtangga.html">Perlengkapan Rumah Tangga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mandi.html">Perlengkapan Mandi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="makanan.html">Makanan</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="minuman.html">Minuman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mie.html">Mie Instan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Bagian Barang -->
+    <section class="barang" id="barang">
+
+        <!-- Membuat Box Container, Padding, Display Flex, Menengahkan Barang ke Tengah, dan membuat background-image2. -->
+        <div class="box-container p-5 d-flex justify-content-center align-items-center background-image2">
+            <!-- Membuat Baris dengan Margin Left dan Right. -->
+            <div class="row ml-1 mr-1">
+                <!-- Kolom -->
+                <div class="col">
+                    <!-- Membuat Kartu dengan Margin Auto supaya kartu berada ditengah, dengan width 18rem;-->
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <!-- Gambar Kartu -->
+                        <img src="image/minuman-1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <!-- Judul Kartu -->
+                        <h5 class="card-title">MINUTE MAID PULPY ORANGE 500ML</h5>
+                        <!-- Teks Kartu -->
+                        <h6 class="card-text">Minute Maid Pulpy merupakan minuman sari buah dengan rasa Jeruk produksi The Coca Cola Company yang diformulasikan untuk memenuhi kebutuhan gizi, vitamin dan mineral sebagai nutrisi harian Anda.</h6>
+                        <h6 class="card-text">Rp. 6.000</h6>
+                        <button class="btn btn-primary" id="tombol1">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/minuman-2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">INDOMILK KIDS SUSU CAIR STRAWBERRY 190ML</h5>
+                        <h6 class="card-text">Indomilk Kids Merupakan Produk Susu Cair Dari Indomilk Yang Diperuntukkan Untuk Anak Anak Yang Mengandung Kalsium Dan Zat Besi Yang Membantu Pertumbuhan Tulang.</h6>
+                        <h6 class="card-text">Rp. 3.500</h6>
+                        <button class="btn btn-primary" id="tombol2">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/minuman-3.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">YAKULT MINUMAN SUSU FERMENTASI 65 ML</h5>
+                        <h6 class="card-text">Yakult Minuman Susu Fermentasi adalah minuman probiotik mirip yogurt yang dibuat dari fermentasi susu skim dan gula dengan bakteri lactobacillus casei.</h6>
+                        <h6 class="card-text">Rp. 3.000</h6>
+                        <button class="btn btn-primary" id="tombol3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/minuman-4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">ULTRA MILK SUSU UHT COKLAT 125ML</h5>
+                        <h6 class="card-text">Susu Cair Segar dengan teknologi UHT dan dikemas secara higienis dan aseptik, dengan tambahan rasa cokelat yang berasal dari bubuk coklat asli bermutu.</h6>
+                        <h6 class="card-text">Rp. 3.500</h6>
+                        <button class="btn btn-primary" id="tombol4">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/minuman-5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">BUAVITA JUS BUAH JAMBU / MANGGA 250ML</h5>
+                        <h6 class="card-text">Buavita Jus Jambu mengandung Vitamin A, B1, B2, B3, B6, juga sumber Vitamin C. Minuman Buavita diproduksi dengan standar tinggi untuk menghasilkan minuman sari buah dengan kualitas yang tinggi.</h6>
+                        <h6 class="card-text">Rp. 4.000</h6>
+                        <button class="btn btn-primary" id="tombol5">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/minuman-6.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">YOU C1000 VITAMIN ORANGE/LEMON 140ML</h5><br>
+                        <h6 class="card-text">YOU-C 1000 LEMON merupakan produk vitamin C berupa minuman kesehatan rasa lemon. Vitamin C 1000 mg di dalamnya membantu memperkuat daya tahan tubuh dan menjaga tubuh tetap terhidrasi di tengah aktivitas.</h6>
+                        <h6 class="card-text">Rp. 7.500</h6>
+                        <button class="btn btn-primary" id="tombol6">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Bagian Footer -->
+    <section class="footer" id="footer">
+
+        <footer>
+            <!-- Container Footer -->
+            <div class="container">
+                <!-- Baris Footer -->
+                <div class="row">
+                    <!-- Kolom Footer -->
+                    <div class="footer-col">
+                        <!-- Judul Footer -->
+                        <h4>company</h4>
+                        <!-- Link Footer -->
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/baguse.ngarso.56808?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/TKW2511" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/kelpiiiin_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+    </section>
+
+    <!-- Script JS Bootstrap & JQuery. -->
+    <script src="js/minuman.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

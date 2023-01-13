@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Judul -->
+    <title>KORSES</title>
+
+
+</head>
+<body>
+
+    <!-- Bagian Header -->
+    <header>
+        <!-- Navbar Size Large, Navbar warna gelap, Navbar selalu tampil diatas. -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!-- Judul Navbar -->
+                <a class="navbar-brand" href="index.html">KOR<span>SES</span></a>
+                <!-- Koding untuk membuat hamburger. -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Isi Navbar -->
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- Navbar Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Sembako
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="beras.html">Beras</a>
+                              <a class="dropdown-item" href="minyak.html">Minyak</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rumahtangga.html">Perlengkapan Rumah Tangga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mandi.html">Perlengkapan Mandi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="makanan.html">Makanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="minuman.html">Minuman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mie.html">Mie Instan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Bagian Home -->
+    <section class="home" id="home">
+
+        <!-- Membuat Container Fluid, Display Flex, Menengahkan Barang ke tengah, dan memberi background-image. -->
+        <div class="container-fluid d-flex justify-content-center align-items-center background-image">
+            <div class="text">
+                <h3>Welcome to KORSES Website!</h3>
+                <h4>We sell daily-basis goods for you. Cheap and affordable!</h4>
+                <a href="beras.html"><button type="button" class="btn btn-lg btn-danger">SHOP NOW!</button></a>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Bagian Footer -->
+    <section class="footer" id="footer">
+
+        <footer>
+            <!-- Container Footer -->
+            <div class="container">
+                <!-- Baris Footer -->
+                <div class="row">
+                    <!-- Kolom Footer -->
+                    <div class="footer-col">
+                        <!-- Judul Footer -->
+                        <h4>company</h4>
+                        <!-- Link Footer -->
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/baguse.ngarso.56808?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/TKW2511" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/kelpiiiin_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+    </section>
+
+    <!-- Script JS Bootstrap & JQuery. -->
+    <script src="js/tombol.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

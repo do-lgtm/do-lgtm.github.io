@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Judul -->
+    <title>KORSES</title>
+
+
+</head>
+<body>
+
+    <!-- Bagian Header -->
+    <header>
+        <!-- Navbar Size Large, Navbar warna gelap, Navbar selalu tampil diatas. -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!-- Judul Navbar -->
+                <a class="navbar-brand" href="index.html">KOR<span>SES</span></a>
+                <!-- Koding untuk membuat hamburger. -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Isi Navbar -->
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- Navbar Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Sembako
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="beras.html">Beras</a>
+                              <a class="dropdown-item" href="minyak.html">Minyak</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rumahtangga.html">Perlengkapan Rumah Tangga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mandi.html">Perlengkapan Mandi</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="makanan.html">Makanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="minuman.html">Minuman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mie.html">Mie Instan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Bagian Barang -->
+    <section class="barang" id="barang">
+
+        <!-- Membuat Box Container, Padding, Display Flex, Menengahkan Barang, dan membuat background-image2. -->
+        <div class="box-container p-5 d-flex justify-content-center align-items-center background-image2">
+            <!-- Membuat Baris dengan Margin Left dan Right. -->
+            <div class="row ml-1 mr-1">
+                <!-- Kolom -->
+                <div class="col">
+                    <!-- Membuat Kartu dengan margin auto agar kartu ditengah, dengan width 18rem. -->
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <!-- Gambar Kartu -->
+                        <img src="image/makanan-1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <!-- Judul Kartu -->
+                        <h5 class="card-title">CHITATO BEEF EDITION SAPI PANGGANG 68gr</h5>
+                        <!-- Teks Kartu-->
+                        <h6 class="card-text">Chitato snack dengan rasa beef barbeque ini hadir dengan cita rasa yang istimewa Tekstur kentang goreng yang bergelombang ditambah bumbu khas rasa sapi panggang</h6>
+                        <h6 class="card-text">Rp. 9.000</h6>
+                        <button class="btn btn-primary" id="tombol1">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/makanan-2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">TICTAC MIX DUA KELINCI 90gr</h5>
+                        <h6 class="card-text">Snack tepung berbentuk bulat,renyah dan gurih, dipadukan dengan campuran bumbu Rasa Mix dan kacang premium lainnya yang menghasilkan rasa enak dan seru.</h6>
+                        <h6 class="card-text">Rp. 5.000</h6>
+                        <button class="btn btn-primary" id="tombol2">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/makanan-3.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">MIE GEMEZ ENAAK SIANTAR TOP 18gr</h5>
+                        <h6 class="card-text">Snack mie kering yang kriuk dan sudah berbumbu, tanpa harus dicampur dahulu dengan bumbu teisah, tanpa harus menabur, mengocok, dan tidak perlu repot.</h6>
+                        <h6 class="card-text">Rp. 1.500</h6>
+                        <button class="btn btn-primary" id="tombol3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/makanan-4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">GERY CRACKERS BERAS ASIN 10 x 5.6gr</h5>
+                        <h6 class="card-text">GERY Krekers Beras Asin adalah snack yang terbuat dari bahan-bahan pilihan berkualitas sehingga memiliki rasa yang lezat, cocok untuk dinikmati pada saat santai bersama keluarga.</h6>
+                        <h6 class="card-text">Rp. 10.000</h6>
+                        <button class="btn btn-primary" id="tombol4">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/makanan-5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">TARO SNACK NET SEAWEED PACK 70gr</h5>
+                        <h6 class="card-text">Snack Taro Net yang telah dikenal luas dari generasi ke generasi. Menonton film, piknik, bermusik, atau jalan-jalan akan lebih seru dengan kerenyahan dari makanan ringan yang berkualitas.</h6>
+                        <h6 class="card-text">Rp. 5.500</h6>
+                        <button class="btn btn-primary" id="tombol5">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/makanan-6.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">KOKOKRUNCH CEREAL COMBO PACK CUP 32gr</h5>
+                        <h6 class="card-text">Koko Krunch Cup 32g sereal sarapan gandum dengan rasa cokelat, lengkap dengan Susu Dancow di dalam kemasannya dapat dinikmati langsung dengan air normal atau dingin</h6>
+                        <h6 class="card-text">Rp. 10.000</h6>
+                        <button class="btn btn-primary" id="tombol6">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Bagian Footer -->
+    <section class="footer" id="footer">
+
+        <footer>
+            <!-- Container Footer -->
+            <div class="container">
+                <!-- Baris Footer -->
+                <div class="row">
+                    <!-- Kolom Footer -->
+                    <div class="footer-col">
+                        <!-- Judul Kolom -->
+                        <h4>company</h4>
+                        <!-- Link Kolom -->
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/baguse.ngarso.56808?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/TKW2511" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/kelpiiiin_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+    </section>
+
+    <!-- Script JS Bootstrap & JQuery. -->
+    <script src="js/makanan.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

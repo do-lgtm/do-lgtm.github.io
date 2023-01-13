@@ -1,0 +1,266 @@
+*{
+    transition: .2s linear;
+}
+
+html{
+    font-size: 80%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+header .navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header .navbar .navbar-brand:hover{
+    transform: scale(1.1);
+}
+
+header .navbar-brand span{
+    font-size: 30px;
+    font-weight: bold;
+    color:deeppink;
+}
+
+header nav .active{
+    font-weight: bold;
+}
+
+.home .background-image{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(../image/background-3.jpg);
+}
+
+.home .container-fluid{
+    height: 500px;
+}
+
+.home .text{
+    display: block;
+    text-align: center;
+}
+
+.home .text h3{
+    color:lime;
+}
+
+.home .text h4{
+    color:pink;
+}
+
+.footer body{
+    line-height: 1.5;
+}
+
+.footer .container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.footer .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer ul{
+	list-style: none;
+    padding: 0;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer .footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer .footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer .footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer .footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer .footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer .footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.barang{
+    margin-top: 5rem;
+}
+
+.barang .background-image{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(../image/background-3.jpg);
+}
+
+.barang .background-image2{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(../image/background-3.jpg);
+}
+
+
+.barang .container-fluid{
+    height: 500px;
+}
+
+.barang .text{
+    display: block;
+    text-align: center;
+}
+
+.barang .text h3{
+    color:lime;
+}
+
+.barang .text h4{
+    color:pink;
+}
+
+.barang .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.barang .row .card{
+    flex: 1 1 21rem;
+    margin: 10px 20px;
+    background:lightpink;
+    border: none;
+    text-align: center;
+}
+
+.barang .row .card:hover{
+    transform: scale(1.02);
+}
+
+.barang .row .card h5{
+    font-weight: bold;
+}
+
+.barang .row .card h6{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.barang .row .card img{
+    box-sizing: border-box;
+}
+
+.about{
+    margin-top: 5rem;
+}
+
+.about .background-image{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(../image/background-3.jpg);
+}
+
+.about .text{
+    display: inline-block;
+    width: 40rem;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about .text h1{
+    color: rgb(236, 84, 236);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about .text h4{
+    color: aquamarine;
+}
+
+.contact{
+    margin-top: 5rem;
+}
+
+.contact .background-image{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(../image/background-3.jpg);
+}
+
+.contact .text{
+    color: rgb(157, 255, 0);
+}
+
+.keranjang{
+    margin-top: 5rem;
+}
+
+.keranjang .background-image{
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url(../image/background-3.jpg);
+}
+
+.keranjang .text{
+    display: inline-block;
+    width: 40rem;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.keranjang .text h1{
+    color: rgb(236, 84, 236);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.keranjang .text h4{
+    color: aquamarine;
+}
+
+.keranjang .text h5{
+    color:rgb(157, 255, 0);
+}

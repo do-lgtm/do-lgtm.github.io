@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>KORSES</title>
+
+
+</head>
+<body>
+
+    <!-- Bagian Header -->
+    <header>
+        <!-- Navbar Size Large, Navbar warna gelap, Navbar selalu tampil diatas. -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!-- Judul Navbar -->
+                <a class="navbar-brand" href="index.html">KOR<span>SES</span></a>
+                <!-- Koding untuk membuat hamburger. -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Isi Navbar -->
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- Navbar Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Sembako
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="beras.html">Beras</a>
+                              <a class="dropdown-item" href="minyak.html">Minyak</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rumahtangga.html">Perlengkapan Rumah Tangga</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="mandi.html">Perlengkapan Mandi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="makanan.html">Makanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="minuman.html">Minuman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mie.html">Mie Instan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Bagian Barang-->
+    <section class="barang" id="barang">
+
+        <!-- Membuat Box Container, Padding, Display Flex, Menengahkan Barang, dan memberi background-image2. -->
+        <div class="box-container p-5 d-flex justify-content-center align-items-center background-image2">
+            <!-- Membuat Baris dengan Margin Left dan Right. -->
+            <div class="row ml-1 mr-1">
+                <!-- Kolom Barang -->
+                <div class="col">
+                    <!-- Membuat Kartu dengan Margin auto supaya kartu ditengah, dan diberi width 18rem. -->
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <!-- Gambar Kartu -->
+                        <img src="image/mandi-1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <!-- Judul Kartu -->
+                        <h5 class="card-title">PEPSODENT PASTA GIGI HERBAL 120gr</h5>
+                        <!-- Teks Kartu -->
+                        <h6 class="card-text">PEPSODENT Pasta Gigi Action 123 Herbal 120gr merupakan pasta gigi pencegah gigi berlubang yang mengandung formulasi khusus yang dapat memberikan nafas segar hingga serta gigi yang lebih putih.</h6>
+                        <h6 class="card-text">Rp. 13.000</h6>
+                        <button class="btn btn-primary" id="tombol1">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/mandi-2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">FORMULA SIKAT GIGI SPARKLING WHITE SOFT 3s</h5>
+                        <h6 class="card-text">Formula Sikat Gigi Sparkling White Soft 3S merupakan sikat gigi yang dilengkapi dengan teknologi white active sehingga mampu mengangkat noda di gigi dan menjadikan gigi anda putih cemerlang.</h6>
+                        <h6 class="card-text">Rp. 17.000</h6>
+                        <button class="btn btn-primary" id="tombol2">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/mandi-3.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">BIORE RELAXING AROMATIC 450ML REFILL</h5><br>
+                        <h6 class="card-text">Biore Body Foam Relaxing Aromatic Refill 450ml adalah sabun dengan foam yang lembut dari KAO, Memberikan sensasi aroma menenangkan dan rasa lembut pada kulit </h6>
+                        <h6 class="card-text">Rp. 21.500</h6>
+                        <button class="btn btn-primary" id="tombol3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/mandi-4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">LIFEBUOY SHAMPOO STRONG & SHINY 340 ML</h5><br>
+                        <h6 class="card-text">Lifebuoy Shampoo Strong & Shiny 340ml. Menutrisi rambut dengan Milk Protein Lock Formula. Menjadikan rambut kuat, bersinar, dan lebat.</h6>
+                        <h6 class="card-text">Rp. 32.000</h6>
+                        <button class="btn btn-primary" id="tombol4">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/mandi-5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">PANTENE SHAMPOO NATURE CARE FULLNESS & LIFE 290ML</h5>
+                        <h6 class="card-text">Mengembalikan kilau dan ketebalan rambut yang kehilangan volume serta cahaya alami rambut setelah mengalami kerusakan terus-menerus. Mengandung Cassia Complex yang membantu membersihkan rambut dengan lembut dan memberikan manfaat kelembapan.</h6>
+                        <h6 class="card-text">Rp. 23.000</h6>
+                        <button class="btn btn-primary" id="tombol5">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/mandi-6.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">CLEAR MEN COOL SPORT MENTHOL SHAMPOO 160ML</h5>
+                        <h6 class="card-text">Tidak seperti shampo menthol lainnya yang hanya menghilangkan ketombe, Shampo Pria Clear Men dirancang untuk tidak hanya menghilangkan ketombe, tetapi juga meningkatkan perlindungan alami kulit kepalamu , mengakhiri masalah ketombe balik lagi.</h6>
+                        <h6 class="card-text">Rp. 21.000</h6>
+                        <button class="btn btn-primary" id="tombol6">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Bagian Footer -->
+    <section class="footer" id="footer">
+
+        <footer>
+            <!-- Container Footer -->
+            <div class="container">
+                <!-- Baris Footer -->
+                <div class="row">
+                    <!-- Kolom Footer -->
+                    <div class="footer-col">
+                        <!-- Judul Kolom -->
+                        <h4>company</h4>
+                        <!-- Link Kolom -->
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/baguse.ngarso.56808?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/TKW2511" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/kelpiiiin_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+    </section>
+
+    <!-- Script JS Bootstrap & JQuery. -->
+    <script src="js/mandi.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

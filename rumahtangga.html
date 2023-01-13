@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Judul Website -->
+    <title>KORSES</title>
+
+
+</head>
+<body>
+
+    <!-- Bagian Header -->
+    <header>
+        <!-- Membuat navbar dengan ukuran large, background gelap, dan selalu tampil diatas. -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!-- Judul Navbar -->
+                <a class="navbar-brand" href="index.html">KOR<span>SES</span></a>
+                <!-- Koding untuk membuat hamburger. -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Membuat Navbar dengan margin otomatis dan text ditengah. -->
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- Navbar Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Sembako
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="beras.html">Beras</a>
+                              <a class="dropdown-item" href="minyak.html">Minyak</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="rumahtangga.html">Perlengkapan Rumah Tangga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mandi.html">Perlengkapan Mandi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="makanan.html">Makanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="minuman.html">Minuman</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mie.html">Mie Instan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Bagian Barang -->
+    <section class="barang" id="barang">
+
+        <!-- Membuat Box Container dengan padding, display flex, konten berada ditengah, dan diberi background-image2. -->
+        <div class="box-container p-5 d-flex justify-content-center align-items-center background-image2">
+            <!-- Membuat baris dengan margin left dan right. -->
+            <div class="row ml-1 mr-1">
+                <!-- Kolom -->
+                <div class="col">
+                    <!-- Membuat kartu dengan margin otomatis dan width 18rem. -->
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <!-- Gambar kartu. -->
+                        <img src="image/rumahtangga-1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <!-- Judul kartu. -->
+                        <h5 class="card-title">SWALLOW TOILET COLOUR BALL 5s</h5>
+                        <br>
+                        <!-- Teks kartu. -->
+                        <h6 class="card-text">Swallow kamper Toilet ball merupakan kamper yang khusus di buat untuk toilet, dengan wangi kamper yang kuat, membantu menghilangkan bau tidak sedap dan melindungi area dari penjamuran.</h6>
+                        <h6 class="card-text">Rp. 15.000</h6>
+                        <button class="btn btn-primary" id="tombol1">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/rumahtangga-2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">SO KLIN RAPIKA 3 IN 1 LAVENDER SPLASH 400ML</h5><br>
+                        <h6 class="card-text">Rapika 3 in 1 Lavender Splash - Pelicin, Pewangi, & Pelembut. Produk pelicin pakaian yang memiliki fungsi 3-in-1, yaitu sebagai pelicin, pewangi dan pelembut pakaian.</h6>
+                        <h6 class="card-text">Rp. 6.000</h6>
+                        <button class="btn btn-primary" id="tombol2">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/rumahtangga-3.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">MAMA LEMON JERUK NIPIS 800ML</h5>
+                        <h6 class="card-text">MAMA LEMON Jeruk Nipis Sabun Cuci Piring merupakan sabun cuci piring dengan ekstrak jeruk nipis yang diformulasikan 3x lebih efektif dalam menghilangkan lemak & bau amis pada peralatan makan dan dapur, bahkan yang terbuat dari plastik.</h6>
+                        <h6 class="card-text">Rp. 13.500</h6>
+                        <button class="btn btn-primary" id="tombol3">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/rumahtangga-4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">SOKLIN POWDER DETERGENT ANTISEP 700 GR</h5><br>
+                        <h6 class="card-text">Soklin Antisep merupakan deterjen bubuk pertama di Indonesia yang menggabungkan detergent + protection (disinfectan)dilengkapi dengan teknologi Active O2 Power.</h6>
+                        <h6 class="card-text">Rp. 15.500</h6>
+                        <button class="btn btn-primary" id="tombol4">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/rumahtangga-5.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">CLING LEMON FRESH PEMBERSIH KACA 425 ML REFILL</h5><br><br>
+                        <h6 class="card-text">CLING Pembersih Kaca Lemon Fresh Refill 425 ml merupakan cairan pembersih yang digunakan untuk membersihkan noda dan kotoran pada kaca.</h6><br>
+                        <h6 class="card-text">Rp. 10.000</h6>
+                        <button class="btn btn-primary" id="tombol5">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="image/rumahtangga-6.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">SUPER PELL PEMBERSIH LANTAI LOVE BLOSSOM POUCH 770ML</h5>
+                        <h6 class="card-text">Super Pell Pink Pouch 770ml adalah pembersih lantai dengan aroma bunga yang menyegarkan dan tahan lama, diformulasikan dengan clif advanced sehingga lebih efektif membunuh kuman, membuat lantai bersih, berkilau, serta bebas kuman dan debu.</h6>
+                        <h6 class="card-text">Rp. 14.000</h6>
+                        <button class="btn btn-primary" id="tombol6">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Bagian Footer -->
+    <section class="footer" id="footer">
+
+        <footer>
+            <!-- Container Footer -->
+            <div class="container">
+                <!-- Baris Footer -->
+                <div class="row">
+                    <!-- Kolom Footer -->
+                    <div class="footer-col">
+                        <!-- Judul Kolom -->
+                        <h4>company</h4>
+                        <!-- Link Kolom -->
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>online shop</h4>
+                        <ul>
+                            <li><a href="#">watch</a></li>
+                            <li><a href="#">bag</a></li>
+                            <li><a href="#">shoes</a></li>
+                            <li><a href="#">dress</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/baguse.ngarso.56808?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/TKW2511" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/kelpiiiin_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+    </section>
+
+    <!-- Script JS Bootstrap & JQuery. -->
+    <script src="js/rumahtangga.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
